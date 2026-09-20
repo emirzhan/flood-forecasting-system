@@ -1,0 +1,24 @@
+# Local development and generated output
+.venv/
+**/__pycache__/
+.pytest_cache/
+.ruff_cache/
+.env
+.env.*
+!.env.example
+*.db
+*.db-*
+*.sqlite*
+*.joblib
+artifacts/
+outputs/
+bin/
+obj/
+.vs/
+.vscode/
+node_modules/
+dist/
+coverage/
+*.egg-info/
+.DS_Store
+

@@ -1,0 +1,34 @@
+{
+  "station_id": "DEMO-001",
+  "observations": [
+    {
+      "date": "2024-01-01",
+      "water_level": 2.1,
+      "discharge": 90,
+      "precipitation": 4,
+      "temperature": 10
+    },
+    {
+      "date": "2024-01-02",
+      "water_level": 2.2,
+      "discharge": 90,
+      "precipitation": 4,
+      "temperature": 10
+    },
+    {
+      "date": "2024-01-03",
+      "water_level": 2.3,
+      "discharge": 90,
+      "precipitation": 4,
+      "temperature": 10
+    },
+    {
+      "date": "2024-01-04",
+      "water_level": 2.4,
+      "discharge": 90,
+      "precipitation": 4,
+      "temperature": 10
+    }
+  ]
+}
+

@@ -1,0 +1,54 @@
+{
+  "model_version": "synthetic-rf-00cbac6a94ea",
+  "synthetic_model": true,
+  "forecast_horizon_days": 1,
+  "features": [
+    "water_level",
+    "discharge",
+    "precipitation",
+    "temperature",
+    "rolling_mean_water_level",
+    "rolling_max_discharge",
+    "lagged_water_level",
+    "day_of_year"
+  ],
+  "training_rows": 571,
+  "test_rows": 144,
+  "last_training_issue_date": "2023-07-28",
+  "first_test_issue_date": "2023-07-30",
+  "accuracy": 0.9305555555555556,
+  "classification_report": {
+    "Low": {
+      "precision": 0.9473684210526315,
+      "recall": 0.9473684210526315,
+      "f1-score": 0.9473684210526315,
+      "support": 57.0
+    },
+    "Medium": {
+      "precision": 0.9130434782608695,
+      "recall": 0.875,
+      "f1-score": 0.8936170212765957,
+      "support": 48.0
+    },
+    "High": {
+      "precision": 0.926829268292683,
+      "recall": 0.9743589743589743,
+      "f1-score": 0.95,
+      "support": 39.0
+    },
+    "accuracy": 0.9305555555555556,
+    "macro avg": {
+      "precision": 0.9290803892020613,
+      "recall": 0.932242465137202,
+      "f1-score": 0.9303284807764092,
+      "support": 144.0
+    },
+    "weighted avg": {
+      "precision": 0.9303640862495581,
+      "recall": 0.9305555555555556,
+      "f1-score": 0.9301640070921986,
+      "support": 144.0
+    }
+  },
+  "limitations": "Synthetic data and illustrative labels; no real-world validation."
+}
